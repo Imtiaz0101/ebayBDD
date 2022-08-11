@@ -23,4 +23,5 @@ public class Registration_Elements {
 	
 	@FindBy(xpath = "//*[@id=\"ca-page-level-error\"]/div/div/div[2]/div/p")
 	public WebElement error;
+
 }
