@@ -1,4 +1,4 @@
-package ebay.BDD.stepDefitions;
+package ebay.BDD.stepDefinitions;
 
 import ebay.BDD.utilities.SetupDriver;
 import io.cucumber.java.Before;
