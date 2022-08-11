@@ -17,7 +17,8 @@ public class AddItemCard_Elements {
 	public WebElement viewaddcart;
 	
 	@FindBy(xpath = "//i[@id='gh-cart-n']")
-	public WebElement cart;
+	public WebElement cart; 
+	
 			
 	
 
