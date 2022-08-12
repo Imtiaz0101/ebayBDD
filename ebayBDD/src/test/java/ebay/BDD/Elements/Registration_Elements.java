@@ -21,7 +21,5 @@ public class Registration_Elements {
 	@FindBy(id = "//button[@id='EMAIL_REG_FORM_SUBMIT']")
 	public WebElement signup;
 	
-	@FindBy(xpath = "//*[@id=\"ca-page-level-error\"]/div/div/div[2]/div/p")
-	public WebElement error;
-
+	//Test
 }
