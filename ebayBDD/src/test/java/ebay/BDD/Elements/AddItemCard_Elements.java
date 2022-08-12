@@ -20,6 +20,6 @@ public class AddItemCard_Elements {
 	public WebElement cart; 
 	
 			
-	
+	//COMMIT
 
 }
