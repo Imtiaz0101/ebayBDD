@@ -3,14 +3,17 @@ package ebay.BDD.Elements;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Registration_Elements {
+public class EbayRegistration_Elements {
+	
+	@FindBy(xpath = "//a[contains(text(),'register')]")
+	public WebElement Registration;
 	
 	@FindBy(xpath = "//input[@id='firstname']")
 	public WebElement FirstName;
 	
 
 	@FindBy(xpath = "//input[@id='lastname']")
-	public WebElement lastname;
+	public WebElement Lastname;
 
 	@FindBy(xpath = "//input[@id='Email']")
 	public WebElement email;
@@ -18,9 +21,17 @@ public class Registration_Elements {
 	@FindBy(xpath = "//input[@id='password']")
 	public WebElement password;
 
-	@FindBy(id = "//button[@id='EMAIL_REG_FORM_SUBMIT']")
-	public WebElement signup;
+	@FindBy(id = "EMAIL_REG_FORM_SUBMIT")
+	public WebElement CreateAcount;
 	
-	@FindBy(xpath = "//*[@id=\"ca-page-level-error\"]/div/div/div[2]/div/p")
-	public WebElement error;
+	
+	
+	@FindBy(xpath = "//h1[contains(text(),'An account already exists')]")
+	public WebElement errorMsg;
+
 }
+	
+	
+	
+
+
